@@ -9,7 +9,7 @@ class QCon1Controller {
 
 	@GetMapping("/")
 	public String root() {
-		return "Hello Kubernetes demo on Wed! I'm served by " + getClass().getName();
+		return "Hello QCon! I'm served by " + getClass().getName();
 	}
 
 	@GetMapping("hello/{name}")
